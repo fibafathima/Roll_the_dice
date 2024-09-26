@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(211, 213, 203);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#parent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.dice{
+    background-color: rgb(207, 240, 20);
+    width:150px;
+    height: 150px;
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    transition: 0.5s    ;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    font-size: 25px;
+    border: black 2px solid;
+    border-radius: 10px;
+    font-weight:bolder;
+    margin-top: 40px;
+
+}
+button:hover{
+    width: 300px;
+    font-size: 30px;
+    border: black 2px solid;
+    border-radius: 10px;
+    font-weight:bolder;
+    background-color: rgb(228, 250, 146);
+    margin-top: 40px;
+    transition: 0.2s;
+}
+#winner{
+    -webkit-text-stroke: 2px black;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: rgb(149, 121, 220); */
+    width: 700px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin-top:70px;
+    /* border-radius: 20px; */
+    font-size: 40px;
+    font-weight: bolder;
+    /* border: 2px solid black; */
+    color: white;
+}
